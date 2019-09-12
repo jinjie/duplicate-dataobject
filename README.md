@@ -25,7 +25,7 @@ $fields->fieldByName('Root.Main.MyGridField')
 $fields->push(
     GridField::create(
         'MyGridField',
-        'MyGridField',
+        'MyGridField'
     )->addComponent(new GridFieldDuplicateAction())
 );
 ```
